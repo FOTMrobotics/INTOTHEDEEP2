@@ -103,6 +103,7 @@ public class ColorSensor {
         telemetry.addData("yellow distance", yellowDistance);
 
          */
+        //hi
         if (redDistance < blueDistance && redDistance < yellowDistance) {
             x = redDistance;
             telemetry.addData("red", x);
